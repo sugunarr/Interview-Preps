@@ -3,7 +3,9 @@ Quick brush up topics
 
 
 # JavaScript
-Datatypes, Scopes, OOJS basics, Closure, Promise, Event Loopings
+Datatypes
+Scopes
+OOJS basics, Closure, Promise, Event Loopings
  
 # HTML5
 Forms Tags, HTML5 new features, Web storage, Session storage
