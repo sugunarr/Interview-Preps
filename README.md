@@ -23,3 +23,9 @@ SPA
 # Unit Testing & Debugging
 karma, Jasmine
  
+# Demo
+Shopping cart - Using Javascript
+SPA - Using React, Redux, nodeJs [Grocery billing software]
+Carousal - Using Javascript, css3
+HTML5 ToDo - Using Localstorage
+Javascript ToDo
