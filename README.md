@@ -10,4 +10,4 @@ Object.Length = function(obj){
   return size;
 };
 var size = Object.Length(obj);
-alert(size + " " + Object.Length(obj[0]));
+alert("ArrayLength: "+ size + " First Object's length: " + Object.Length(obj[0])); // Returns ArrayLength: 3 First Object's length: 2 
