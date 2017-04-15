@@ -1,5 +1,13 @@
 # To find Object length
 
+ES5+
+-----
+The recent and ES5+ compatible browsers they accept Object.keys() now.
+
+Object.keys(obj).length; // returns the length of an object
+
+Another way
+------------
 Object doesn't have a length property by default. They are actually an Associative array by themselves. We can get the length of an Object by their hasOwnProperty() method using a function. 
 
 It is advised not to assign the method to its prototype because it can break enumerations in various libraries.
