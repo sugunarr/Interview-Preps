@@ -1,7 +1,7 @@
 # To find Object length
  
 var obj = [{name: "suguna", age: 29}, {name: "Karthi", age: 1}, {name: "Raja", age: 34}];
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Object.Length = function(obj){
 	var size = 0, key;
   for (key in obj){
