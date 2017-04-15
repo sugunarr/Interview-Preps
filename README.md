@@ -1,25 +1,13 @@
-# Interview-Preps
-Quick brush up topics
+# To find Object length
+ 
+var obj = [{name: "suguna", age: 29}, {name: "Karthi", age: 1}, {name: "Raja", age: 34}];
 
-
-# JavaScript
-Datatypes, Scopes, OOJS basics, Closure, Promise, Event Loopings
- 
-# HTML5
-Forms Tags, HTML5 new features, Web storage, Session storage
- 
-# Frameworks (React JS)
-ES6 features, Components in React js, Components attributes(state , props, props validation), JSX (what is JSX, JSX compilation), Component events/lifecycle, Forms in React, React routers, Flux (Flux flow and APIs/libs alt.js or redux)
- 
-# REST API
-Client side handling /JSON/XML
- 
-# Frameworks CSS
-SAAS/LESS, Bootstrap
- 
-# Design Patterns
-SPA
- 
-# Unit Testing & Debugging
-karma, Jasmine
- 
+Object.Length = function(obj){
+	var size = 0, key;
+  for (key in obj){
+  	if(obj.hasOwnProperty(key))  size++;
+  }
+  return size;
+};
+var size = Object.Length(obj);
+alert(size + " " + Object.Length(obj[0]));
