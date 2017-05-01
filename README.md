@@ -9,6 +9,8 @@ Quick brush up topics
 4. Closure
 5. Promise
 6. Event Loopings
+7. Algorithms
+8. Data Structures
  
 # HTML5
 1. Forms Tags
